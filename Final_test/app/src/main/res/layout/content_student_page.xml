@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.soren.finaltest.sampledata.student_page"
+    tools:showIn="@layout/activity_student_page">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/User_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/User_name"
+        android:background="#00897b"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="Check grade"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5677fc"
+        android:text="Message"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:padding="32dp"
+        android:gravity="center"
+        android:layout_below="@+id/grade"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="32dp"
+        android:background="#e91e63"
+        android:text="Setting"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_below="@+id/message"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="332dp" />
+</RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

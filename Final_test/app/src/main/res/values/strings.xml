@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Final test</string>
+    <string name="title_activity_student_page">student_page</string>
+    <string name="title_activity_st_grade">St_grade</string>
+    <string name="title_activity_st_message">St_message</string>
+    <string name="title_activity_st_setting">St_setting</string>
+    <string name="title_activity_teacher_change_st">TeacherChangeSt</string>
+    <string name="title_activity_teacher__page">Teacher_Page</string>
+    <string name="title_activity_student_info">Student_info</string>
+    <string name="title_activity_teacher_message">Teacher_message</string>
+    <string name="title_activity_teacher_setting">Teacher_setting</string>
+    <string name="title_activity_change_info">ChangeInfo</string>
+</resources>

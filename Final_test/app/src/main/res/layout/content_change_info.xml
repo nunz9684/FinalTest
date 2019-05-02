@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.soren.finaltest.sampledata.ChangeInfo"
+    tools:showIn="@layout/activity_change_info">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="Subject"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/subject_a"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/subject"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:text="A"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="260dp" />
+        <TextView
+            android:id="@+id/subject_b"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/subject_a"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="B"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <TextView
+            android:id="@+id/subject_c"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/subject_b"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:text="C"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <EditText
+        android:id="@+id/grade_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+        android:layout_below="@id/textView5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/grade_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/grade_A"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/grade_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/grade_B"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="202dp" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="Grade"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="393dp" />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:text="Confirm"
+            />
+    </RelativeLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

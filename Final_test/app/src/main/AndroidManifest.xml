@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.soren.finaltest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sampledata.student_page"
+            android:label="@string/title_activity_student_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.St_grade"
+            android:label="@string/title_activity_st_grade"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.St_message"
+            android:label="@string/title_activity_st_message"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.St_setting"
+            android:label="@string/title_activity_st_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.TeacherChangeSt"
+            android:label="@string/title_activity_teacher_change_st"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.Teacher_Page"
+            android:label="@string/title_activity_teacher__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.Student_info"
+            android:label="@string/title_activity_student_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.Teacher_message"
+            android:label="@string/title_activity_teacher_message"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.Teacher_setting"
+            android:label="@string/title_activity_teacher_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sampledata.ChangeInfo"
+            android:label="@string/title_activity_change_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
